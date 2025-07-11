@@ -35,7 +35,7 @@ const Home = () => {
               <div className="ml-10 flex items-baseline space-x-8">
                 <button onClick={() => scrollToSection('home')} className="text-gray-300 hover:text-white transition-colors duration-200">Home</button>
                 <button onClick={() => scrollToSection('features')} className="text-gray-300 hover:text-white transition-colors duration-200">Features</button>
-                <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-white transition-colors duration-200">About</button>
+                <a href="/about" className="text-gray-300 hover:text-white transition-colors duration-200">About</a>
                 <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-white transition-colors duration-200">Contact</button>
               </div>
             </div>
